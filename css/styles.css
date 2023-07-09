@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: amaranth;
+    src: url(../fonts/Amaranth-Regular.ttf);
+}
+
+@font-face{
+    font-family: librebodoni;
+    src: url(../fonts/LibreBodoni-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+header{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+nav{
+    background-color: #702123;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+nav img{
+    height: 2rem;
+    width: 2rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding-right: .625rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: gainsboro;
+    font-family: amaranth;
+}
+
+.navbar li a:hover{
+    color: grey;
+}
+
+h1{
+    font-family: amaranth;
+    font-size: 6.25rem;
+    color: #702123;
+}
+
+.inicio p{
+    font-family: amaranth;
+    font-size: 1.25rem;
+    color: #702123;
+}
+
+.imagen-inicio{
+    height: 9.375rem;
+    width: 9.375rem;
+}
