@@ -21,7 +21,7 @@
 
 header{
     width: 100%;
-    padding-bottom: 2rem;
+    height: 2rem;
 }
 
 nav{
@@ -30,10 +30,9 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
 }
 
-nav img{
+.logo-custom{
     height: 2rem;
     width: 2rem;
 }
@@ -56,19 +55,313 @@ nav ul{
     color: grey;
 }
 
+.main-principal{
+    background-color: gainsboro;
+}
+
 h1{
     font-family: amaranth;
     font-size: 6.25rem;
     color: #702123;
+    grid-column: 1/7;
+    grid-row: 2;
 }
 
+.inicio{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 4.6875rem);
+}
 .inicio p{
     font-family: amaranth;
     font-size: 1.25rem;
     color: #702123;
+    grid-column: 1/7;
+    grid-row: 4;
 }
 
 .imagen-inicio{
-    height: 9.375rem;
-    width: 9.375rem;
+    height: 21.875rem;
+    width: 21.875rem;
+    grid-column: 7/9;
+    grid-row: 4/7;
+}
+
+.footer{
+    background-color: #702123;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    padding-right: .625rem;
+}
+
+.footer ul li{
+    text-decoration: none;
+    color: gainsboro;
+    font-family: amaranth;
+}
+
+.instagram{
+    height: 1rem;
+    width: 1rem;
+}
+
+
+.main-productos{
+    width: 100%;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: repeat(3, 19.6875rem);
+    grid-template-rows: repeat(8, 10.9375rem);
+}
+
+.productos-uno{
+    font-size: 1.5625rem;
+    font-family: montserrat;
+    color: #702123;
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+.productos-uno-img{
+    width: 18.75rem;
+    height: 18.75rem;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.productos-dos{
+    font-size: 1.5625rem;
+    font-family: montserrat;
+    color: #702123;
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.productos-dos-img{
+    width: 18.75rem;
+    height: 18.75rem;
+    grid-column: 1;
+    grid-row: 3/5;
+}
+
+.productos-tres{
+    font-size: 1.5625rem;
+    font-family: montserrat;
+    color: #702123;
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+
+.productos-tres-img{
+    width: 18.75rem;
+    height: 18.75rem;
+    grid-column: 1;
+    grid-row: 5/7;
+}
+
+.productos-cuatro{
+    font-size: 1.5625rem;
+    font-family: montserrat;
+    color: #702123;
+    grid-column: 2/4;
+    grid-row: 7/9;
+}
+
+.productos-cuatro-img{
+    width: 18.75rem;
+    height: 18.75rem;
+    grid-column: 1;
+    grid-row: 7/9;
+}
+
+.pagosenvios-main{
+    display: grid;
+    grid-template-columns: 1fr 25rem 1fr;
+    grid-template-rows: repeat(7, 9.375rem);
+    background-image: url(../assets/img/fondo\ de\ historia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pagos-card{
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    grid-column: 2;
+    grid-row: 2/4;
+    background-color: gainsboro;
+}
+
+.pagos-card h2{
+    font-family: montserrat;
+    font-size: 2.1875rem;
+    text-align: center;
+    color: #702123;
+    padding-bottom: 1.25rem;
+}
+
+.efectivo{
+    display: flex;
+    flex-direction: row;
+}
+
+.efectivo p{
+    font-family: montserrat;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #702123;
+}
+
+.efectivo img{
+    height: 6.25rem;
+    width: 10.9375rem;
+}
+
+.transferencia{
+    display: flex;
+    flex-direction: row;
+}
+
+.transferencia p{
+    font-family: montserrat;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #702123;
+}
+
+.transferencia img{
+    height: 6.25rem;
+    width: 10.9375rem;
+}
+
+.envios-card{
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    grid-column: 2;
+    grid-row: 5/7;
+    background-color: gainsboro;
+}
+
+.envios-card h2{
+    font-family: montserrat;
+    font-size: 2.1875rem;
+    text-align: center;
+    color: #702123;
+    padding-bottom: 1.25rem;
+}
+
+.paquete{
+    display: flex;
+    flex-direction: row;
+}
+
+.paquete p{
+    font-family: montserrat;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #702123;
+    padding-bottom: 1.875rem;
+}
+
+.paquete img{
+    height: 6.25rem;
+    width: 10.9375rem;
+}
+
+.envio{
+        display: flex;
+    flex-direction: row;
+}
+
+.envio p{
+    font-family: montserrat;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #702123;
+}
+
+.envio img{
+    height: 6.25rem;
+    width: 10.9375rem;
+}
+
+.info-main{
+    display: grid;
+    grid-template-columns: 1fr 25rem 1fr;
+    grid-template-rows: repeat(7, 9.375rem);
+    background-image: url(../assets/img/fondo\ de\ historia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-collares{
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    grid-column: 2;
+    grid-row: 2/4;
+    background-color: gainsboro;
+}
+
+.info-collares h2{
+    font-family: montserrat;
+    font-size: 2.1875rem;
+    text-align: center;
+    color: #702123;
+}
+
+.info-collares p{
+    font-family: montserrat;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #702123;
+}
+
+.cuidado-collares{
+    box-shadow: 5px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    grid-column: 2;
+    grid-row: 5/7;
+    background-color: gainsboro;
+}
+
+.cuidado-collares h2{
+    font-family: montserrat;
+    font-size: 2.1875rem;
+    text-align: center;
+    color: #702123;
+}
+
+.cuidado-collares ul li{
+    font-family: montserrat;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #702123;
+}
+
+.cuidado-collares p{
+    font-family: montserrat;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #702123;
+}
+
+.navbar-contacto{
+    height: 2rem;
 }
