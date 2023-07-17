@@ -350,6 +350,7 @@ h1{
 
 .cuidado-collares ul li{
     font-family: montserrat;
+    list-style: none;
     font-size: 1.125rem;
     text-align: center;
     color: #702123;
@@ -400,5 +401,228 @@ h1{
 
 
 @media (max-width:480px){
+    header{
+        height: 10.25rem;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        gap: .5rem;
+        padding-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-main{
+        grid-template-columns: 1fr 21.875rem 1fr;
+    }
+
+    .info-collares{
+        width: 21.875rem;
+    }
     
+    .info-collares h2{
+        font-size: 1.5625rem;
+        padding-bottom: 2rem;
+    }
+
+    .info-collares p{
+        font-size: 1rem;
+    }
+
+    .cuidado-collares{
+        width: 21.875rem;
+        height: 21.875rem;
+    }
+
+    .cuidado-collares h2{
+        font-size: 1.5625rem;
+        padding-bottom: 2rem;
+    }
+
+    .cuidado-collares ul li{
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .cuidado-collares p{
+        font-size: 1rem;
+    }
+
+    .pagosenvios-main{
+        grid-template-columns: 1fr 21.875rem 1fr;
+    }
+
+    .pagos-card{
+        width: 21.875rem;
+    }
+
+    .pagos-card h2{
+        font-size: 1.5625rem;
+    }
+
+    .efectivo p{
+        font-size: 1rem;
+    }
+
+    .efectivo img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+
+    .transferencia p{
+        font-size: 1rem;
+    }
+
+    .transferencia img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+
+    .envios-card{
+        width: 21.875rem;
+    }
+
+    .envios-card h2{
+        font-size: 1.5625rem;
+    }
+
+    .paquete p{
+        font-size: 1rem;
+    }
+
+    .paquete img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+
+    .envio p{
+        font-size: 1rem;
+    }
+
+    .envio img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+}
+
+@media (max-width:375px){
+    header{
+        height: 10.25rem;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        gap: .5rem;
+        padding-right: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-main{
+        grid-template-columns: 1fr 21.875rem 1fr;
+    }
+
+    .info-collares{
+        width: 18.75rem;
+    }
+    
+    .info-collares h2{
+        font-size: 1.5625rem;
+        padding-bottom: 2rem;
+    }
+
+    .info-collares p{
+        font-size: 1rem;
+    }
+
+    .cuidado-collares{
+        width: 18.75rem;
+        height: 21.875rem;
+    }
+
+    .cuidado-collares h2{
+        font-size: 1.5625rem;
+        padding-bottom: 2rem;
+    }
+
+    .cuidado-collares ul li{
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .cuidado-collares p{
+        font-size: 1rem;
+    }
+
+    .pagosenvios-main{
+        grid-template-columns: 1fr 18.75rem 1fr;
+    }
+
+    .pagos-card{
+        width: 18.75rem;
+    }
+
+    .pagos-card h2{
+        font-size: 1.5625rem;
+    }
+
+    .efectivo p{
+        font-size: 1rem;
+    }
+
+    .efectivo img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+
+    .transferencia p{
+        font-size: 1rem;
+    }
+
+    .transferencia img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+
+    .envios-card{
+        width: 18.75rem;
+    }
+
+    .envios-card h2{
+        font-size: 1.5625rem;
+    }
+
+    .paquete p{
+        font-size: 1rem;
+    }
+
+    .paquete img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+
+    .envio p{
+        font-size: 1rem;
+    }
+
+    .envio img{
+        height: 5.3125rem;
+        width: 9.375rem;
+    }
+
+    .footer{
+        flex-direction: column;
+        height: 48px;
+    }
+    
+    .footer ul{
+        padding-right: 0;
+    }
 }
